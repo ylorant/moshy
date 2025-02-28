@@ -127,8 +127,8 @@ def parse_hostname(hostname_argument, config):
     return host_setup
 
 defaults = {
-    'cmd' : None,
-    'port' : None,
+    'cmd' : "",
+    'port' : "",
 }
 
 if __name__ == "__main__":
